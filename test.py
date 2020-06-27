@@ -1,10 +1,5 @@
-"""import os
-from pathlib import Path
-def scanner():
-    obj = os.scandir("Import")
-    for item in obj:
-        print(item.name)
-"""
-from shutil import rmtree
-
-rmtree("Import")
+d = dict([[5, 10], [6, 10]])
+s = 0
+for v in d:
+    s += v
+print(s)
